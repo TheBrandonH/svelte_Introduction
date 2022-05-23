@@ -1,0 +1,61 @@
+:root {
+    --Brown: #f4d47c;
+    --Blue: #082c6c;
+    --LightBlue: #2069e0;
+    --Background: #181a1b;
+    --Grey: #bebebe;
+    --LightGrey: #878683;
+    --Text: white;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+html,
+body {
+    background-color: var(--Background);
+    color: var(--Text);
+    font-size: large;
+    font-family: 'Fantasy', Courier, monospace;
+    line-height: 1.5;
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.Text-HE {
+    opacity: 87%;
+}
+
+.Text-ME {
+    opacity: 60%;
+}
+
+.Text-LE {
+    opacity: 38%;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 1.25rem 2rem;
+}
+
+.testButton {
+    border: 0;
+    text-decoration: none;
+    padding: 30px 30px 30px 30px;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
