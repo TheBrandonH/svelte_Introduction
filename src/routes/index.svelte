@@ -1,6 +1,6 @@
 <script land="ts"> 
-
-</script>>
+ import '$lib/styles/index.css';
+</script>
 
 <div class="center">
     <p class="UC">Under Construction</p>
